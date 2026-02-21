@@ -12,7 +12,7 @@ pipeline {
         stage('Restore Dependencies') {
             when {
                 anyOf {
-                    branch '**/main'
+                    branch 'main'
                 }
             }
             steps {
@@ -22,7 +22,7 @@ pipeline {
         stage('Build the app') {
             when {
                 anyOf {
-                    branch '**/main'
+                    branch 'main'
                 }
             }
             steps {
@@ -32,7 +32,7 @@ pipeline {
         stage('Run Tests') {
             when {
                 anyOf {
-                    branch '**/main'
+                    branch 'main'
                 }
             }
             steps {
