@@ -1,0 +1,14 @@
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/bin/Debug/net6.0/Homies.Data.deps.json
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/bin/Debug/net6.0/Homies.Data.runtimeconfig.json
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/bin/Debug/net6.0/Homies.Data.dll
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/bin/Debug/net6.0/Homies.Data.pdb
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.csproj.AssemblyReference.cache
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.AssemblyInfoInputs.cache
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.AssemblyInfo.cs
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.csproj.CoreCompileInputs.cache
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.dll
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/refint/Homies.Data.dll
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.pdb
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/Homies.Data.genruntimeconfig.cache
+/home/demian/Documents/DevOps/Exam/SEDO-reg-exam-2026-2/Homies.Data/obj/Debug/net6.0/ref/Homies.Data.dll
