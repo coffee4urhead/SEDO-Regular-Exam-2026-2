@@ -27,31 +27,31 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/Identity/Account/Login";
 });
 
-var application = builder.Build();
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (application.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    application.UseMigrationsEndPoint();
+    app.UseMigrationsEndPoint();
 }
 else
 {
-    application.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    application.UseHsts();
+    app.UseHsts();
 }
 
-application.UseHttpsRedirection();
-application.UseStaticFiles();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-application.UseRouting();
+app.UseRouting();
 
-application.UseAuthentication();
-application.UseAuthorization();
+app.UseAuthentication();
+app.UseAuthorization();
 
-application.MapControllerRoute(
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-application.MapRazorPages();
+app.MapRazorPages();
 
-application.Run();
+app.Run();
