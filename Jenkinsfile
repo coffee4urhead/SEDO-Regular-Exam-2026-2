@@ -9,10 +9,20 @@ def runCmd(String cmd) {
 pipeline {
     agent any
     stages {
+        stage('Debug Branch Info') {
+            steps {
+                script {
+                    echo "BRANCH_NAME: ${env.BRANCH_NAME}"
+                    echo "GIT_BRANCH: ${env.GIT_BRANCH}"
+                }
+            }
+        }
         stage('Restore Dependencies') {
             when {
-                anyOf {
-                    branch 'main'
+                expression { 
+                    env.BRANCH_NAME == 'main' || 
+                    env.GIT_BRANCH == 'main' || 
+                    env.GIT_BRANCH == 'origin/main' 
                 }
             }
             steps {
@@ -21,8 +31,10 @@ pipeline {
         }
         stage('Build the app') {
             when {
-                anyOf {
-                    branch 'main'
+                expression { 
+                    env.BRANCH_NAME == 'main' || 
+                    env.GIT_BRANCH == 'main' || 
+                    env.GIT_BRANCH == 'origin/main' 
                 }
             }
             steps {
@@ -31,8 +43,10 @@ pipeline {
         }
         stage('Run Tests') {
             when {
-                anyOf {
-                    branch 'main'
+                expression { 
+                    env.BRANCH_NAME == 'main' || 
+                    env.GIT_BRANCH == 'main' || 
+                    env.GIT_BRANCH == 'origin/main' 
                 }
             }
             steps {
