@@ -3,9 +3,7 @@ name: Build and Test ASP.NET applicaiton
 
 on:
   push:
-    branches: [ "develop" ]
-  pull_request:
-    branches: [ "feature" ]
+    branches: [ "develop", "feature" ]
 
 jobs:
   build:
